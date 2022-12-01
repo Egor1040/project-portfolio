@@ -499,6 +499,39 @@ body {
     margin-top: 30px;
 }
 
+.statistics-block {
+    background: #666666;
+}
+
+.statistics-info {
+    height: 351px;
+    display: flex;
+    justify-content: space-around;
+}
+
+.box-statistics {
+    width: 189px;
+    margin-top: 89px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+.number-statistics {
+    font-size: 72px;
+    font-weight: 100;
+    color: #ffffff;
+}
+
+.about-award {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+
+
+
 .contact-us-block {
     background: #ebebeb;
 }
