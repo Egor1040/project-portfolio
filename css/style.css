@@ -529,8 +529,59 @@ body {
     color: #ffffff;
 }
 
+.our-skill-block {
+    background: #ffffff;
+}
 
+.our-skills {
+    height: 841px;
+}
 
+.our-skills-title {
+    padding-top: 100px;
+    color: #363636;
+    font-weight: bold;
+    font-size: 72px;
+}
+
+.border-our-skills {
+    border-bottom: 10px solid #363636;
+    width: 370px;
+}
+
+.container-about-skills {
+    margin-top: 80px;
+}
+
+.grafics-info {
+    width: 775px;
+    height: 175px;
+    display: flex;
+}
+
+.graffics {
+    margin-right: 30px;
+    width: 175px;
+    height: 175px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.grafics-foto {
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.number-in-graficcs {
+    color: #ca3c3c ;
+    font-size: 18px;
+    font-weight: bold;
+    position: absolute;
+
+}
 
 .contact-us-block {
     background: #ebebeb;
