@@ -148,7 +148,7 @@ body {
 }
 
 .service-slogan {
-    margin-top: 50px;
+    margin-top: 46px;
     margin-right: 30px;
 }
 
@@ -535,6 +535,10 @@ body {
 
 .our-skills {
     height: 841px;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    align-content: flex-start;
 }
 
 .our-skills-title {
@@ -554,7 +558,7 @@ body {
 }
 
 .grafics-info {
-    width: 775px;
+    width: 770px;
     height: 175px;
     display: flex;
 }
@@ -580,7 +584,113 @@ body {
     font-size: 18px;
     font-weight: bold;
     position: absolute;
+}
 
+.graffics-last {
+    width: 175px;
+    height: 175px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.somethink-about-skills {
+    margin-top: 50px;
+    margin-left: 99px;
+    height: 174px;
+    width: 665px;
+}
+
+.title-about-skills {
+    color: #ca3c3c;
+    font-size: 18px;
+    font-weight: bold;
+    width: 322px;
+    height: 18px;
+}
+
+.text-about-skills-first {
+    color: #363636;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 29px;
+}
+
+.text-about-skills-last {
+    color: #363636;
+    font-size: 14px;
+    font-weight: normal;
+    margin-top: 20px;
+}
+
+.last-info {
+    margin-top: 309px;
+    margin-left: 29px;
+    width: 370px;
+    height: 378px;
+}
+
+.total-ram-block {
+    display: flex;
+    align-items: center;
+    border-radius: 10px;
+    width: 370px;
+    height: 50px;
+    border: 1px solid #ebebeb;
+}
+
+.total-ram-block p {
+    font-size: 14px;
+    font-weight: bold;
+    color: #ca3c3c;
+}
+
+.ram-rocket {
+    margin-right: 17px;
+    margin-left: 19px;
+}
+
+.ram-symbol {
+    margin-left: 121px;
+}
+
+.enter-email-block {
+    background: #ca3c3c;
+}
+
+.enter-email {
+    height: 81px;
+}
+
+.platform-use-block {
+    background: #7f7f7f;
+}
+
+.platform-use {
+    height: 151px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.platform-example {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 97px;
+    background: #a6a6a6;
+    margin-right: 30px;
+}
+
+.platform-example-wordpress {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 171px;
+    height: 97px;
+    background: #a6a6a6;
 }
 
 .contact-us-block {
