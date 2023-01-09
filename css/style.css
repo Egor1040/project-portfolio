@@ -62,14 +62,14 @@ body {
     justify-content: space-between;
 }
 
-.header-logo {
+.header__logo {
     margin-right: 130px;
     color: #ffffff;
     font-size: 30px;
     font-weight: bold;
 }
 
-.header-navigation {
+.header__navigation {
     display: flex;
     color: #ffffff;
     font-weight: normal;
@@ -77,15 +77,15 @@ body {
     cursor: pointer;
 }
 
-.header-navigation li {
+.header__navigation li {
     margin-right: 40px;
 }
 
-.header-navigation li:hover {
+.header__navigation li:hover {
     color: #ca3c3c;
 }
 
-.header-entrance {
+.header__entrance {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -96,7 +96,7 @@ body {
     color: #ca3c3c;
 }
 
-.header-entrance:hover {
+.header__entrance:hover {
     color: #ffffff;
     cursor: pointer;
 }
